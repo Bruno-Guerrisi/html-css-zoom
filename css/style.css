@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     background-color: black;
     height: 100vh;
+    font-size: 14px;
 }
 
 /* utilities */
@@ -34,6 +35,48 @@ header > .butt-header{
 main{
     flex-grow: 1;
     overflow: auto;
+    margin-bottom: 10px;
+}
+
+.reunion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reunion li{
+    width: 250px;
+    list-style: none;
+}
+
+.box{
+    height: 130px;
+    margin: 5px;
+    position: relative;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.username{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.644);
+    border-radius: 1px;
+}
+
+.username .off{
+    color: red;
+}
+
+.reunion li:nth-child(13){
+    border: 4px solid #5fc011;
 }
 
 /* FOOTER */
