@@ -10,23 +10,34 @@ body{
     background-color: black;
     height: 100vh;
 }
+
 /* utilities */
+.pointer:hover{
+    cursor: pointer;
+}
 
 /* HEADER */
 header{
-    height: 50px;
-    background-color: lightgreen;
+    padding: 10px 5px;
+    text-align: right;
+}
+
+header > .butt-header{
+    color: white;
+    background-color: #222629;
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
 }
 
 /* MAIN */
 main{
     flex-grow: 1;
     overflow: auto;
-    background-color: rgb(164, 144, 238);
 }
 
 /* FOOTER */
 footer{
     height: 50px;
-    background-color: lightblue;
+    background-color: #222629;
 }
